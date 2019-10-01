@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Maratona de Programação</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="header">
+        <nav class="menu">
+            <ul class="container">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Programação</a></li>
@@ -17,20 +19,28 @@
             </ul>
         </nav>
 
-        <div>
-            <div>
-                <span>XXIII MARATONA SBC DE PROGRAMAÇÃO</span>
-            </div>
-            <div>
-                <span>Primeira fase: 15 de Setembro</span>
-                <span>Vilhena - RO</span>
-                <span>IFRO - Instituto Federal de Rondônia</span>
+        <div class="container">
+            <div class="titulo">
+                <section class="titulo__principal">
+                    <span>XXIII MARATONA SBC DE PROGRAMAÇÃO</span>
+                </section>
+                <section>
+                    <div>
+                        <span>Primeira fase: 15 de Setembro</span>
+                    </div>
+                    <div>
+                        <span>Vilhena - RO</span>
+                    </div>
+                    <div>
+                        <span>IFRO - Instituto Federal de Rondônia</span>
+                    </div>
+                </section>
             </div>
         </div>
     </header>
 
-    <main>
-        <div>
+    <main class="container">
+        <div class="main">
             <section>
                 <h1>Sobre</h1>
                 <h1>I Fase da Maratona de Programação da SBC – Etapa Regional</h1>
@@ -44,7 +54,7 @@
             </section>
             <section>
                 <h1>Programação</h1>
-                <table>
+                <table class="tabela">
                     <tr>
                         <th>Data</th>
                         <th>Programação</th>
@@ -82,7 +92,7 @@
             </section>
             <section>
                 <h1>Localização</h1>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18804.5203254528!2d-60.129813450000015!3d-12.708139899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66ce4f62185d43bb!2sInstituto%20Federal%20de%20Rond%C3%B4nia%20-%20Campus%20Vilhena!5e1!3m2!1spt-BR!2sbr!4v1566871605867!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18804.5203254528!2d-60.129813450000015!3d-12.708139899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66ce4f62185d43bb!2sInstituto%20Federal%20de%20Rond%C3%B4nia%20-%20Campus%20Vilhena!5e1!3m2!1spt-BR!2sbr!4v1566871605867!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </section>
             <section>
                 <h1>Contato</h1>
@@ -103,7 +113,7 @@
     </main>
 
     <footer>
-        <div>
+        <div class="container">
             <div>
                 <img src="logo-ifro-branco.png" alt="">
             </div>
